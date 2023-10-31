@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Sometype Mono', monospace;
+    /* display: grid;
+    place-items: center; */
+    padding: 20px;
+    background-color: #ECC9EE;
+}
+
+/* task1 */
+
+/* .container{
+    display: flex;
+    gap: 20px;
+}
+
+.container img{
+   height: 200px;
+   object-fit: cover;
+}
+
+.main-img{
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+} */
+
+
+
+.container{
+    height: 70vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+p{
+    padding-top: 20px;
+}
+
+button{
+    background: none;
+   padding: 30px;
+   cursor: pointer;
+}
+
+i{
+    font-size: 40px;
+}
